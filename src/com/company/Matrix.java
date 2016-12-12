@@ -10,12 +10,15 @@ import java.util.Random;
 /*rubric
     fill randomly, from user(keyboard), and from file
  */
+//Note: you need a 2x3 matrix and 3 x 1 matrix because thats what Mr.Kummer will test
+//TODO:Transpose, fill from text, inverse, multiply, divide, determinants
+
+
 
 public class Matrix {
     private double[][] myNumbers;
     private int myRows;
     private int myColumns;
-
 
     public Matrix(int Rows, int Columns) {
         this.myRows = Rows;
